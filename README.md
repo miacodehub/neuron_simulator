@@ -25,7 +25,9 @@ The GUI updates every frame to show neuron voltages and spike events.
 Building & Running:
 Command line:
 git clone https://github.com/yourusername/neuron-simulator.git
+
 cd neuron-simulator
+
 g++ gui_main.cpp neuron.cpp synapse.cpp spike_event.cpp -o neuron_sim -lsfml-graphics -lsfml-window -lsfml-system ./neuron_sim
 
 Planned improvements:
