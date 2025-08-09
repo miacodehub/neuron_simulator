@@ -3,6 +3,20 @@ An interactive C++ based neuron simulator with SFML GUI to showcase neuron activ
 This project is a real-time neuron simulation built using C++ and SFML.
 The first iteration focuses on modeling simple leaky integrate-and-fire neurons with interactive controls to adjust network size and apply stimuli while observing voltage changes over time.
 
+Leaky Integrate and Fire definition:
+
+It’s a simple model of how neurons work. The neuron’s voltage slowly increases when it receives input, but also “leaks” away over time. When the voltage reaches a threshold, the neuron “fires” a spike, then resets.
+
+Stimuli function:
+
+Stimuli are short bursts of input sent to neurons. They raise the neuron’s voltage, making it more likely to fire a spike. In the simulation, you can apply different stimuli to see how the network responds in real time.
+
+Applications of the simulator:
+
+* Learning and visualizing basic neuroscience concepts
+* Experimenting with simple brain network models
+* Demonstrating spike timing and propagation
+* Building a foundation for more advanced simulations used in AI, robotics, or medical research
 
 GUI with no neurons:
 <img width="990" height="682" alt="Screenshot 2025-08-09 181834" src="https://github.com/user-attachments/assets/83aefe5c-c229-49c2-bc1c-4301b6a83595" />
