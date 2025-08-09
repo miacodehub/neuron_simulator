@@ -1,7 +1,24 @@
-# neuron_simulator
-An intercative C++ based neuron simulator with SFML GUI to showcase neuron activity in the Leaky Integrate and Fire model with real-time visualization of spiking neuron behavior.
+Leaky Integrate and Fire Neuron Simulator 
+An interactive C++ based neuron simulator with SFML GUI to showcase neuron activity in the Leaky Integrate and Fire model with real-time visualization of spiking neuron behavior.
 This project is a real-time neuron simulation built using C++ and SFML.
 The first iteration focuses on modeling simple leaky integrate-and-fire neurons with interactive controls to adjust network size and apply stimuli while observing voltage changes over time.
+
+
+GUI with no neurons:
+<img width="990" height="682" alt="Screenshot 2025-08-09 181834" src="https://github.com/user-attachments/assets/83aefe5c-c229-49c2-bc1c-4301b6a83595" />
+
+Single Neuron:
+<img width="1007" height="692" alt="Screenshot 2025-08-09 181955" src="https://github.com/user-attachments/assets/4cb5c52f-67d1-4245-8ac4-87911e4a8400" />
+
+Multiple Neurons:
+<img width="1003" height="683" alt="Screenshot 2025-08-09 182034" src="https://github.com/user-attachments/assets/072bec0f-dc26-46f0-ab56-08a8e61b1eb4" />
+
+Multiple neurons with stimuli given:
+<img width="998" height="677" alt="Screenshot 2025-08-09 182127" src="https://github.com/user-attachments/assets/558dff74-5408-49b2-a0bf-91ab67359a5b" />
+
+
+
+
 
 The GUI features:
 Voltage-over-time graph with axis calibration
